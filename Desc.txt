@@ -1,0 +1,9 @@
+Chandler is an Bootstrap based Flat Theme which comes in two versions, Single page and Multiple pages. Chandler is simple, colorful, flat, minimal. As the whole world is going towards Minimal and Flat, it is the time for you to update your site. Buy Chandler today for just and feel the power of flatness. 
+
+Features:
+1. Home page slider is powered by Revolution slider.
+2. Lots of animations. Thanks for animate.css and jquery waypoints.
+3. Supports lot of colors. 
+4. Comes in two versions, sinlge page and multiple page.
+5. Inspired from Metro look.
+
