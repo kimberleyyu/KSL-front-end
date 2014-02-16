@@ -5,6 +5,17 @@ Designed by : http://responsivewebinc.com
 
 /* Basic CSS starts */
 
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
 *{
 	border-radius:0px !important;
 	box-shadow:none  !important;

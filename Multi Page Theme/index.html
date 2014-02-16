@@ -36,6 +36,8 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="#">
+
+		<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
 	</head>
 	
 	<body>
@@ -75,6 +77,20 @@
 									<li><a href="service.html">Service</a></li>
 									<li><a href="about us.html">About</a></li>
 									<li><a href="contact us.html">Contact</a></li>
+									<li><a href="#">Admin Login</a>
+										<div id="loginmodal" style="display:none;">
+										  <h1>Administrator Login</h1>
+										  <form id="loginform" name="loginform" method="post" action="index.html">
+										    <label for="username">Username:</label>
+										    <input type="text" name="username" id="username" class="txtfield" tabindex="1">
+										     
+										    <label for="password">Password:</label>
+										    <input type="password" name="password" id="password" class="txtfield" tabindex="2">
+										     
+										    <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
+										  </form>
+										</div> 
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -127,12 +143,13 @@
 							data-y="250"
 							data-speed="500" 
 							data-start="3400"
-							data-easing="easeOutSine">
-							<form class="navbar-form navbar-left" role="search" action="" method="get">
+							data-easing="easeOutSine"
+							style="min-width: 750px">
+							<form  id="searchbutton" class="navbar-form navbar-left" role="search" action="" method="get">
 							    <div class="form-group">
-							        <input type="text" class="form-control" placeholder="Search">
+							        <input type="text" class="form-control" placeholder="Look up a word">
 							    </div>
-							    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+							    <button type="submit" class="btn btn-default">Search<!--<span class="glyphicon glyphicon-search"></span>--><!--<span <img src="img/kim/searchbuttonsmall.png">--></span></button>
 							</form>
 						</div>
 							Af
