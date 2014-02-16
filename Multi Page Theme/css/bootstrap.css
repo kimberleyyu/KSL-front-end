@@ -2643,6 +2643,7 @@ input[type="button"].btn-block {
   top: 1px;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
+  background-image: url("../img/glyphicons-halflings.png");
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
@@ -4603,6 +4604,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-form .form-group {
+    width: 250%;
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
@@ -4632,7 +4634,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-form {
-    width: auto;
+    width: 250%;
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 0;
