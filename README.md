@@ -2,6 +2,7 @@ KSL-front-end
 =============
 
 ID Hack Kenyan Sign Language Dictionary
+
 Rohit Ahuja, Jordan Canedy, Stephen Turban, Travis Yeh, and Kimberley Yu
 
 Part of front end for the "ksl: Kenyan Sign Language Dictionary" created for the 2014 International Development Hackathon.
